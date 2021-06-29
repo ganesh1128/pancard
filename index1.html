@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+span{ color: red
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}  *{
+    margin: 0px;
+}
+
+    </style>
+    </head>
+    <body>
+<div style = "background-color: rgb(255, 222, 181);">
+<div style = "background-color: brown; color: white;">
+<h4 style = "text-align: center;">request for new pancard</h4>
+<p style = "font-style: italic; font-weight: lighter; text-align: center;">field marked with <span>*</span> mandatory</p>
+</div>
+<div style="font-weight:bold;">
+    <table width = 100%>
+        <tr>
+            <td></td>
+            <td>
+                <span>*</span> Whether citizen of India
+                <label for="yes" style="padding-left:50px; font-weight: lighter;">yes</label>
+                <input type="radio" name=""id="yes">
+                <label for="no" style= "padding-left: 20px;font-weight: lighter;">no</label>
+                <input type="radio" name="" id="no">
+
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><label for="pan"><span>*</span> permanant acc number (pan) </label> 
+            <input type="text" name="" id="pan"> </td>
+        </tr>
+        <tr>
+            <td style="width: 1%; padding: 5px;"><input type="checkbox" name="" id=""></td>
+            <td>1.name</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><span>Title</span> 
+                <label for="smt" style="padding-left: 30px; font-weight: lighter;"> shri/mr </label>
+                <input type="radio" name="" id="smt" >
+                <label for="sm" style="padding-left: 30px; font-weight: lighter;"> mrs/miss </label>
+                <input type="radio" name="" id="sm" >
+                <label for="s" style="padding-left: 30px; font-weight: lighter;"> Kumari </label>
+                <input type="radio" name="" id="s" >
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div>
+                <div style="display: inline-block;">
+                    <label for="sur">firstname</label><br>
+                    <input type="text" name="" id="sur">
+                </div>
+                <div style="display: inline-block; padding-left: 150px;">
+                    <label for="m">middlename</label><br>
+                    <input type="text" name="" id="m">
+                </div>
+                <div style="display: inline-block; padding-left: 150px;">
+                    <label for="l">lastname</label><br>
+                    <input type="text" name="" id="l">
+                </div>
+            </div>
+
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+</div>
+    </body>
+    </html>
