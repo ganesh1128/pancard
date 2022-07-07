@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: space-around;
     background: red;
-    color: aquamarine;
+    color: white;
 }
 .tableDiv{
     display: flex;
     background: black;
-    color: azure;
+    color: white;
 }
