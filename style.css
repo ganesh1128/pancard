@@ -1,0 +1,12 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: red;
+    color: aquamarine;
+}
+.tableDiv{
+    display: flex;
+    background: black;
+    color: azure;
+}
